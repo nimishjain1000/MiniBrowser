@@ -39,7 +39,7 @@ Browser b=            new Browser("http://google.com");
                 
                 
                 JPanel topPanel=new JPanel();
-                topPanel.setBackground(Color.yellow);
+                topPanel.setBackground(Color.red);
                 JLabel urlLabel=new JLabel("URl");
                 urlField=new JTextField(30);
                 urlField.setText(initialURL);
