@@ -33,10 +33,7 @@ Browser b=            new Browser("http://google.com");
     {
         super("Swing Browser");
                 this.initialURL=initialURL;
-//               addWindowListener(new ExitListener());//*********************************************
-                //f.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
-               // WindowUtilities.setNativeLookAndFeel();
-                
+
                 
                 JPanel topPanel=new JPanel();
                 topPanel.setBackground(Color.yellow);
@@ -81,7 +78,7 @@ Browser b=            new Browser("http://google.com");
         
         try
         { URL a=new URL(url);
-            htmlpane.setPage(a);//****************************************
+            htmlpane.setPage(a);
             urlField.setText(url);
             
         }
